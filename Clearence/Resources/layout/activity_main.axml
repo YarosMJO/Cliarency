@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:paddingLeft="15sp"
+    android:paddingRight="15sp"
+    android:paddingTop="15sp"
+    android:paddingBottom="15sp" >
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingTop="15sp">
+        <TextView
+			android:text="Price :"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" 
+			android:editable = "true"
+			android:textSize="15sp"
+			android:id="@+id/PriceEdit"/>
+    </LinearLayout>
+
+
+    <!-- Second Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingTop="15sp">
+        <TextView
+			android:text="Engine type :"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+		<Spinner
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/SpinnerEngineType"
+			android:background="@null"
+			/>
+    </LinearLayout>
+
+	<!-- Third Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingTop="15sp">
+        <TextView
+			android:text="Model year :"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+		<Spinner
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/SpinnerModelYear"
+			android:background="@null"/>
+    </LinearLayout>
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingTop="15sp">
+        <TextView
+			android:text="Engine litres :"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <EditText
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+			android:textSize="15sp"
+			android:textColor="@android:color/black"
+			android:id="@+id/EngineLitresEdit"/>
+    </LinearLayout>
+
+	<View
+        android:id="@+id/divider"
+		android:layout_width="match_parent"
+		android:layout_height= "1dp"
+		android:layout_below = "@id/EngineLitresEdit"
+		android:background="#808080" />
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingTop="15sp">
+        <TextView
+			android:text="VAT :"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+			android:text=":"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+			android:id="@+id/VATValue"/>
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingTop="15sp">
+        <TextView
+			android:text="Import Tax:"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+			android:text=" :"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+			android:id="@+id/ImportTaxValue"/>
+    </LinearLayout>
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingTop="15sp">
+        <TextView
+			android:text="Excize Tax:"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+			android:text=" :"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+			android:id="@+id/ExcizeTaxValue"/>
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:paddingTop="15sp">
+        <TextView
+			android:text="Full price:"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+			android:text=" :"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+			android:id="@+id/FullPriceValue"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clearence", "Clearence\Clearence.csproj", "{8F85B524-EC1E-4288-8F4A-7939E0A46C52}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Clearence.Shared", "Clearence.Shared\Clearence.Shared.shproj", "{7FFFBE6E-77FE-44C9-AB13-0DD8F36209A2}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Clearence.Shared\Clearence.Shared.projitems*{7fffbe6e-77fe-44c9-ab13-0dd8f36209a2}*SharedItemsImports = 13
+		Clearence.Shared\Clearence.Shared.projitems*{8f85b524-ec1e-4288-8f4a-7939e0a46c52}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F85B524-EC1E-4288-8F4A-7939E0A46C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F85B524-EC1E-4288-8F4A-7939E0A46C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F85B524-EC1E-4288-8F4A-7939E0A46C52}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8F85B524-EC1E-4288-8F4A-7939E0A46C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F85B524-EC1E-4288-8F4A-7939E0A46C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F85B524-EC1E-4288-8F4A-7939E0A46C52}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0860ACE-FEC5-4202-88D1-4F92455DEB5A}
+	EndGlobalSection
+EndGlobal
